@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 gtts = "*"
 langdetect = "*"
+pyttsx3 = "*"
 
 [dev-packages]
 

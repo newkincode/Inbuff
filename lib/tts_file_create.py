@@ -13,11 +13,5 @@ def recreate_folder(path): # by chatGPT
         os.makedirs(path)
 
 def create(text: str):
-    texts = list(text.split())
-    count = 0
     recreate_folder("ttsfile")
-    for i in texts:
-        count+=1
-        gtts.gTTS(i, detect(i)).save(f"ttsfile/{count}.mp3")
-
-gtts.gTTS("안녕", "ko").save(f"ttsfile/test.mp3")
+    gtts.gTTS(text, "us").save(f"ttsfile/text.mp3")
