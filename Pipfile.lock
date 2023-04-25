@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "78ea485a5c210b23cf6432fcce2669cab4e552782a06d24b91b9c76569676780"
+            "sha256": "a5939536e0e871b6a05917fe99d0508a77cf5dc4796ac7ca2bf9329ea6e4dfb5"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -152,6 +152,21 @@
             ],
             "index": "pypi",
             "version": "==1.0.9"
+        },
+        "minecraft-launcher-lib": {
+            "hashes": [
+                "sha256:86d5615d6c94836590356385fabc2ec430077a816c1d495adeefc0b51f38e369",
+                "sha256:ab06a17daa2964f228efc7bf115c7f79e0b105808cbe99a81aa2541f9a0668f8"
+            ],
+            "index": "pypi",
+            "version": "==5.3"
+        },
+        "playsound": {
+            "hashes": [
+                "sha256:cc6ed11d773034b0ef624e6bb4bf50f4b76b8414a59ce6d38afb89b423297ced"
+            ],
+            "index": "pypi",
+            "version": "==1.3.0"
         },
         "pypiwin32": {
             "hashes": [

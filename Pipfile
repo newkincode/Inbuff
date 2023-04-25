@@ -7,6 +7,8 @@ name = "pypi"
 gtts = "*"
 langdetect = "*"
 pyttsx3 = "*"
+playsound = "*"
+minecraft-launcher-lib = "*"
 
 [dev-packages]
 
