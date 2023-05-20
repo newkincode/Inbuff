@@ -1,4 +1,3 @@
-from langdetect import detect
 import gtts
 import os
 import shutil

@@ -41,6 +41,7 @@ def read_twitch_chat(channel):
 
             # a를 chatbot.process에 전달하고 결과를 main.py로 전송합니다.
             result = chatbot.process(a)
+            result = chatbot.detect(result)
             send_to_main(result)
 
 
