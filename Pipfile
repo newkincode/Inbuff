@@ -10,6 +10,8 @@ pyttsx3 = "*"
 playsound = "*"
 minecraft-launcher-lib = "*"
 korcen = "*"
+speechrecognition = "*"
+pyaudio = "*"
 
 [dev-packages]
 
