@@ -9,6 +9,7 @@ langdetect = "*"
 pyttsx3 = "*"
 playsound = "*"
 minecraft-launcher-lib = "*"
+korcen = "*"
 
 [dev-packages]
 
