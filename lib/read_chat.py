@@ -1,15 +1,22 @@
 import socket
 import re
 from dotenv import load_dotenv
-import os 
+import os
+import chatbot
 
-# load .env
+a = 0
+
+# .env 파일 로드
 load_dotenv()
 
 token1 = os.environ.get('token')
 print(token1)
+
+
 def read_twitch_chat(channel):
     global token1
+    global a
+
     server = 'irc.chat.twitch.tv'
     port = 6667
     token = token1
@@ -30,7 +37,17 @@ def read_twitch_chat(channel):
         else:
             username = re.search(r'\w+', response).group(0)
             message = chat_regex.sub('', response)
-            print(f'{username}: {message}')
+            a = f'{username}: {message}'
 
-# 트위치 채널 이름을 지정하여 호출합니다.
+            # a를 chatbot.process에 전달하고 결과를 main.py로 전송합니다.
+            result = chatbot.process(a)
+            send_to_main(result)
+
+
+def send_to_main(result):
+    with open('result.txt', 'w') as file:
+        file.write(result)
+
+
+# 원하는 채널 이름으로 read_twitch_chat 함수를 호출합니다.
 read_twitch_chat('nkc1006')
