@@ -12,6 +12,7 @@ minecraft-launcher-lib = "*"
 korcen = "*"
 speechrecognition = "*"
 pyaudio = "*"
+obs-websocket-py = "*"
 
 [dev-packages]
 
