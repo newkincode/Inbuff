@@ -13,6 +13,8 @@ korcen = "*"
 speechrecognition = "*"
 pyaudio = "*"
 obs-websocket-py = "*"
+fastapi = "*"
+better-profanity = "*"
 
 [dev-packages]
 

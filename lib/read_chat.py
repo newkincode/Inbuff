@@ -12,6 +12,9 @@ load_dotenv()
 token1 = os.environ.get('token')
 print(token1)
 
+def send_to_main(result):
+    with open('result.txt', 'w') as file:
+        file.write(result)
 
 def read_twitch_chat(channel):
     global token1
@@ -43,12 +46,7 @@ def read_twitch_chat(channel):
             result = chatbot.process(a)
             result = chatbot.detect(result)
             send_to_main(result)
-
-
-def send_to_main(result):
-    with open('result.txt', 'w') as file:
-        file.write(result)
-
+            print(result)
 
 # 원하는 채널 이름으로 read_twitch_chat 함수를 호출합니다.
 read_twitch_chat('nkc1006')
