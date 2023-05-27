@@ -2,16 +2,14 @@ h1{
 	color: #ffffff;
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: rgb(0, 0, 0);
-	font-family: 'Katuri';
+	font-family: 'MaplestoryOTFBold';
 	position:absolute; bottom:0px;
 	text-align: center;
 }
 
-
 @font-face {
-    font-family: 'Katuri';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff') format('woff');
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
