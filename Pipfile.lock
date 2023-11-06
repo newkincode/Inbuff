@@ -38,6 +38,7 @@
                 "sha256:bd4c529ea6aa2db1aaa50524be1ed14d0fe5c664f1fd88c8bc388c7e9f9f00e8"
             ],
             "index": "pypi",
+            "markers": "python_version == '3'",
             "version": "==0.7.0"
         },
         "certifi": {
@@ -171,11 +172,12 @@
         },
         "korcen": {
             "hashes": [
-                "sha256:1b46d0b9f6530519b6be40a382e1025278ea56d97b82b41db0f78acfe7a69ff9",
-                "sha256:8b32acae8187d8b47801fecc22931e63600a0b08c4f22241143d2ff563a78d0e"
+                "sha256:57e141eaa2a36513b3754c798c9180d8e0f654b8f16f20aabec69ea5749f2686",
+                "sha256:6eec683c7a084fb8d3de9d5d9a04716f190cf01821d16d0b3d791c23865ca2cd"
             ],
             "index": "pypi",
-            "version": "==0.3.5"
+            "markers": "python_version >= '3.6'",
+            "version": "==0.3.6"
         },
         "langdetect": {
             "hashes": [
